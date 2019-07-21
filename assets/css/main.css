@@ -1786,3 +1786,7 @@ body.is-preload #footer {
 	display: "flex";
 	align-content: center
 }
+
+body {
+	font-size: 1em;
+}
