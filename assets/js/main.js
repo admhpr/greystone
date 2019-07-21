@@ -13,6 +13,9 @@
     $main = $("#main"),
     $main_articles = $main.children("article");
 
+  // copy right
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+
   // Breakpoints.
   breakpoints({
     xlarge: ["1281px", "1680px"],
