@@ -1790,3 +1790,8 @@ body.is-preload #footer {
 body {
 	font-size: 18px;
 }
+
+.fade {
+	opacity: 1;
+	transition: opacity .5s ease-in-out;
+}
